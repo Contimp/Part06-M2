@@ -1,0 +1,119 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 20vh;
+    color: #ffffff;
+}
+
+.card + .card {
+    border-left: solid 1px #0000001e;
+}
+.card > img{
+    width: 2.5rem;
+    height: 2.5rem;  
+  
+}
+
+.primary {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 5vh 13vh;
+width: 15rem;
+padding: 0 0.5rem;
+}
+
+.primary > span {
+    margin-top: 1rem;
+    grid-column: 1 / span 2;
+}
+
+.primary > img{
+    width: 5rem;
+    height: 5rem;
+
+}
+
+.name {
+    background-color: #0000005e;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-weight: 700;
+}
+.temp {
+    display: flex;
+    flex-direction: column;
+    width: 3rem;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.temp + .temp {
+    margin-left: 1rem;
+}
+
+.temps {
+    display: flex;    
+}
+
+.btnClose {
+    float: right;
+    background-color: rgba(236, 175, 62, 0.718);
+    color: white;
+    border: 1px solid rgb(203, 203, 240);
+    border-radius: 5px;
+    margin: 0.25px;
+    margin-left: 10px ;
+}
+
+    /* padding-left: 2px;
+    padding-right: 2px; */
+    /*
+}
+
+
+
+
+
+
+
+
+/*.container{
+    width: 350px;
+    height: 175px;
+    border: 3.5px solid lightblue;
+    border-radius: 15px;
+    background-color: lightcyan;
+}
+.grid {
+    display: flex;
+    justify-content: space-around;
+}
+.btnClose {
+    float: right;
+    background-color: rgb(34, 85, 225);
+    color: white;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    margin: 3px;
+    /* padding-left: 2px;
+    padding-right: 2px; */
+    /*
+}
+.btnClose:hover{
+    background-color: aqua;
+    color: blue;
+}
+.header{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+}
+.imagen{
+    background-color: rgb(182, 242, 242);
+    border-radius: 15px;
+}
+*/

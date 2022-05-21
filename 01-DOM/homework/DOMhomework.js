@@ -24,8 +24,8 @@ spn.innerHTML = spn.innerHTML + nombre
 
 function ToDo (description) {
   // Tu código acá:
-this.description = description;
-this.complete = false;
+this.description = description,
+this.complete = false
 }
 
 
@@ -37,7 +37,7 @@ this.complete = false;
 
 // Tu código acá:
 ToDo.prototype.completeToDo = function() {
-  this.complete = true;
+  this.complete = true
 }
 
 
